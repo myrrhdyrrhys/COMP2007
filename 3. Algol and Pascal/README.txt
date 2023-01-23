@@ -1,0 +1,1 @@
+Algol68 program to simulate the children's game "fizzbuzz" to a number of 50.

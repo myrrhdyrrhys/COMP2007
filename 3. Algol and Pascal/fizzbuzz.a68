@@ -1,0 +1,14 @@
+main: (
+    INT a := 0;
+	FOR i FROM 1 TO 50
+	DO
+	    a := a + 1;
+		IF (a MOD 3 = 0) THEN
+			print (("Fizz", blank))
+		FI;
+		IF (a MOD 5 = 0) THEN
+			print (("Buzz", blank))
+		FI;
+		print ((new line))
+	OD
+)
